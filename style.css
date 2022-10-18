@@ -5,6 +5,7 @@ body {
 }
 h1 {
 	font-size: 36px;
+	margin-top: 10px;
 }
 
 h2 {
@@ -16,25 +17,29 @@ h3 {
 span {
 	color: grey;
 }
-
+.container {
+	box-shadow: 0 0 20px grey;
+	margin: 0 auto;
+	width: 1015px;
+	background-color: white;}
 section,
 header {
 	padding: 10px 60px 20px 60px;
-	background-color: white;
-	width: 960px;
-	margin: 0 auto;
+	
 }
 
 header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding-top:60px ;
 }
 header ul {
 	list-style: none;
 }
-header li {
+li {
 	margin-bottom: 15px;
+	
 }
 .address-icon {
 	width: 16px;
@@ -48,7 +53,7 @@ header li {
 	border-radius: 50%;
 }
 .profile-picture {
-	width: 180px;
+	width: 160px;
 }
 .hobbies {
 	list-style: none;
@@ -80,6 +85,7 @@ p {
 	margin-top: 20px;
 	border-radius: 26px;
 	transition: background-color 0.5s, color 0.5s;
+	box-shadow: 0 0 20px grey;
 }
 
 .cv-download-link:hover {
